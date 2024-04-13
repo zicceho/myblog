@@ -53,25 +53,20 @@ const BLOG = {
   // 默认下会将你上传到 notion的主页封面图和头像也给替换，建议将主页封面图和头像放在其他图床，在 notion 里配置 link 即可。
 
 // START ************网站字体*****************
-// 字体是否有衬线：font-sans，font-serif
-FONT_STYLE: process.env.NEXT_PUBLIC_FONT_STYLE || 'font-sans',
 
-// 字体CSS链接，只保留 "LXGW WenKai" 字体的链接
+FONT_STYLE: process.env.NEXT_PUBLIC_FONT_STYLE || 'font-sans', // ['font-serif','font-sans'] 两种可选，分别是衬线和无衬线: 参考 https://www.jianshu.com/p/55e410bd2115
+// 字体CSS 例如 https://npm.elemecdn.com/lxgw-wenkai-webfont@1.6.0/style.css
 FONT_URL: [
-  'https://npm.elemecdn.com/lxgw-wenkai-webfont@1.6.0/style.css'
+  'https://npm.elemecdn.com/lxgw-wenkai-webfont@1.6.0/style.css',
 ],
-
-// 无衬线字体，仅包含 "LXGW WenKai"
+// 无衬线字体 例如'"LXGW WenKai"'
 FONT_SANS: [
-  // 将 "LXGW WenKai" 添加到无衬线字体列表中，并确保在最前面
-  '"LXGW WenKai"'
+  '"LXGW WenKai"',
 ],
-
-// 衬线字体，清空衬线字体列表
-FONT_SERIF: [],
-
-// 字体图标库
-FONT_AWESOME: process.env.NEXT_PUBLIC_FONT_AWESOME_PATH || 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css',
+// 衬线字体 例如'"LXGW WenKai"'
+FONT_SERIF: [
+  '"LXGW WenKai"',
+],
 
 // END ************网站字体*****************
 

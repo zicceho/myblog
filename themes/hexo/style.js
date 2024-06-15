@@ -25,7 +25,7 @@ const Style = () => {
     }
     
     #theme-hexo .menu-link:hover {
-        background-size: 100% 2px;
+        background-size: 0% 2px;
         color: #F2AF3C;
     }
 

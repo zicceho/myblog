@@ -48,7 +48,8 @@ const Style = () => {
     // 选中字体颜色
     ::selection {
         background: #F2AF3C;
-    }
+    color: #FFFFFF; /* 白色 */
+}
 
     // 自定义滚动条
     ::-webkit-scrollbar {

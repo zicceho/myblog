@@ -13,7 +13,6 @@ const SocialButton = () => {
   const CONTACT_TELEGRAM = siteConfig('CONTACT_TELEGRAM')
 
   const CONTACT_LINKEDIN = siteConfig('CONTACT_LINKEDIN')
-  const CONTACT_WEHCHAT_PUBLIC = siteConfig('CONTACT_WEHCHAT_PUBLIC')
   const CONTACT_WEIBO = siteConfig('CONTACT_WEIBO')
   const CONTACT_INSTAGRAM = siteConfig('CONTACT_INSTAGRAM')
   const CONTACT_EMAIL = siteConfig('CONTACT_EMAIL')

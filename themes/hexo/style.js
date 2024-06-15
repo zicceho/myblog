@@ -47,7 +47,7 @@ const Style = () => {
 
     // 选中字体颜色
     ::selection {
-        background: rgba(45, 170, 219, 0.3);
+        background: #F2AF3C;
     }
 
     // 自定义滚动条
@@ -61,12 +61,12 @@ const Style = () => {
     }
 
     ::-webkit-scrollbar-thumb {
-        background-color: #F2AF3C;
+        background-color: #e1e3e6;
     }
 
     * {
         scrollbar-width:thin;
-        scrollbar-color: #F2AF3C transparent
+        scrollbar-color: #e1e3e6 transparent
     }
     
 
